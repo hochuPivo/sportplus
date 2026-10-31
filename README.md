@@ -43,4 +43,3 @@
 ## Запуск проекта
 
 Статика https://hochupivo.github.io/sportplus/
-```
