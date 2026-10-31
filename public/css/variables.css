@@ -1,0 +1,46 @@
+﻿:root {
+    /* Typography */
+    --font-main: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-display: 'Unbounded', sans-serif;
+    --font-alt: 'Manrope', sans-serif;
+
+    /* Brand & Accent Colors */
+    --color-orange-bright: #FF8114;
+    --color-orange-logo: #F3780D;
+    --color-orange-ui: #F37B1D;
+    --color-orange-hover: #E46F17;
+
+    /* Dark & Neutral Palette */
+    --color-dark: #282828;
+    --color-dark-deep: #222222;
+    --color-text-primary: #1F2937;
+    --color-text-secondary: #55575C;
+    --color-text-muted: #7F8286;
+    --color-text-gray: #8E9096;
+    --color-text-light-gray: #9A9DA3;
+
+    /* Borders & Backgrounds */
+    --color-border: #DADADA;
+    --color-border-light: #EAEAEA;
+    --color-border-card: #E8E9ED;
+    --color-bg-light: #F4F5F7;
+    --color-bg-about: #EEEEEE;
+    --color-bg-card: #FFFFFF;
+    --color-white: #FFFFFF;
+
+    /* Shadows & Transitions */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+    --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.1);
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+
+    /* Bootstrap Breakpoint Reference Variables */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-xxl: 1400px;
+}
+

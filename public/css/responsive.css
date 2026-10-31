@@ -1,0 +1,405 @@
+﻿/* --------------------------------------------------------------------------
+   1. XXL BREAKPOINT (СЌРєСЂР°РЅС‹ РґРѕ 1400px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1399.98px) {
+    .container {
+        max-width: 1320px;
+    }
+
+    .products__row > .product-card {
+        flex: 0 0 calc((100% - 48px) / 4);
+        max-width: calc((100% - 48px) / 4);
+    }
+}
+
+/* --------------------------------------------------------------------------
+   2. XL BREAKPOINT (СЌРєСЂР°РЅС‹ РґРѕ 1200px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1199.98px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .hero {
+        padding: 36px 32px;
+        min-height: 350px;
+    }
+
+    .hero__title {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .hero__subtitle {
+        font-size: 15px;
+    }
+
+    .delivery-card {
+        flex: 1 1 calc((100% - 16px) / 2);
+    }
+
+    .about__content {
+        flex: 1.2 1 0;
+    }
+
+    .about__banner {
+        flex: 1 1 0;
+    }
+
+    .contacts__card {
+        flex: 0 0 420px;
+        max-width: 420px;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   3. LG BREAKPOINT (РїР»Р°РЅС€РµС‚С‹ Рё РјР°Р»С‹Рµ РЅРѕСѓС‚Р±СѓРєРё РґРѕ 992px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 991.98px) {
+    .container {
+        max-width: 960px;
+    }
+
+    /* РЁР°РїРєР° РїРµСЂРµС…РѕРґРёС‚ РЅР° РґРІСѓС…СЃС‚СЂРѕС‡РЅСѓСЋ РєРѕРјРїРѕРЅРѕРІРєСѓ */
+    .header {
+        height: auto;
+        padding: 16px 0;
+    }
+
+    .header__wrap {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    .header__controls {
+        width: 100%;
+        order: 3;
+    }
+
+    .hero {
+        min-height: 320px;
+        padding: 28px 24px;
+    }
+
+    .hero__content {
+        gap: 24px;
+        max-width: 480px;
+    }
+
+    .hero__title {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .products__row > .product-card {
+        flex: 0 0 calc((100% - 32px) / 3);
+        max-width: calc((100% - 32px) / 3);
+    }
+
+    /* РЎРµРєС†РёСЏ В«Рћ РєРѕРјРїР°РЅРёРёВ» РІ РѕРґРЅСѓ РєРѕР»РѕРЅРєСѓ */
+    .about__grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about__content,
+    .about__banner {
+        flex: 1 1 auto;
+        width: 100%;
+    }
+
+    .about__banner {
+        min-height: 280px;
+    }
+
+    /* РЎРµРєС†РёСЏ РєРѕРЅС‚Р°РєС‚РѕРІ РІ РѕРґРЅСѓ РєРѕР»РѕРЅРєСѓ (РєР°СЂС‚Р° РїРѕРґ РєР°СЂС‚РѕС‡РєРѕР№) */
+    .contacts__grid {
+        flex-direction: column;
+    }
+
+    .contacts__card {
+        flex: 1 1 auto;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .contacts__map {
+        flex: 1 1 auto;
+        width: 100%;
+        min-height: 360px;
+    }
+
+    /* РџРѕРґРІР°Р» РІ 2 РєРѕР»РѕРЅРєРё */
+    .footer__wrap {
+        flex-wrap: wrap;
+        gap: 36px 24px;
+    }
+
+    .footer__col {
+        flex: 1 1 calc((100% - 24px) / 2);
+    }
+}
+
+/* --------------------------------------------------------------------------
+   4. MD BREAKPOINT (РјР°Р»С‹Рµ РїР»Р°РЅС€РµС‚С‹ Рё СЃРјР°СЂС‚С„РѕРЅС‹ РґРѕ 768px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 720px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .topbar__nav {
+        display: none;
+    }
+
+    .topbar__wrap {
+        justify-content: space-between;
+    }
+
+    .hero {
+        padding: 24px 20px;
+        background-position: 70% center;
+    }
+
+    .hero__arrow {
+        display: none;
+    }
+
+    .hero__title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .hero__subtitle {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .section-head__title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .products__row {
+        gap: 12px;
+    }
+
+    .products__row > .product-card {
+        flex: 0 0 calc((100% - 12px) / 2);
+        max-width: calc((100% - 12px) / 2);
+    }
+
+    .product-card {
+        padding: 12px;
+    }
+
+    .product-card__image-box {
+        height: 160px;
+    }
+
+    .info-sections {
+        gap: 50px;
+        padding-top: 36px;
+    }
+
+    .about__content {
+        padding: 24px;
+    }
+
+    .about__stats {
+        gap: 8px;
+    }
+
+    .about__stat-value {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .about__stat-label {
+        text-align: center;
+    }
+
+    .delivery-card {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   5. SM & XS BREAKPOINT (РјРѕР±РёР»СЊРЅС‹Рµ С‚РµР»РµС„РѕРЅС‹ РґРѕ 576px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .topbar {
+        height: 36px;
+    }
+
+    .topbar__city,
+    .topbar__phone {
+        font-size: 12px;
+    }
+
+    .logo {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .header__controls {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .header__actions {
+        gap: 8px;
+    }
+
+    .action-item {
+        width: 48px;
+    }
+
+    .action-item__label {
+        font-size: 9px;
+    }
+
+    .cart-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* РџРѕРёСЃРє Рё РєРЅРѕРїРєР° РєР°С‚Р°Р»РѕРіР° РЅР° РјРѕР±РёР»СЊРЅС‹С… */
+    .header__search-group {
+        display: contents;
+        gap: 8px;
+    }
+
+    .btn-catalog {
+        justify-content: center;
+        height: 42px;
+    }
+
+    .search {
+        order: 3;
+        height: 42px;
+    }
+
+    /* Р‘Р°РЅРЅРµСЂ Hero РЅР° РјРѕР±РёР»СЊРЅС‹С… */
+    .hero {
+        min-height: 270px;
+        padding: 22px 16px;
+        border-radius: 16px;
+    }
+
+    .hero__content {
+        gap: 20px;
+    }
+
+    .hero__title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .hero__subtitle {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .btn-cta {
+        width: 100%;
+        height: 46px;
+    }
+
+    /* РљР°С‚Р°Р»РѕРі С‚РѕРІР°СЂРѕРІ РЅР° СѓР·РєРёС… СЌРєСЂР°РЅР°С… */
+    .products__row {
+        gap: 16px;
+    }
+
+    .products__row > .product-card {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .product-card {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .product-card__image-box {
+        height: 190px;
+    }
+
+    /* Рћ РєРѕРјРїР°РЅРёРё */
+    .about__subtitle {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .about__desc {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .about__banner {
+        min-height: 240px;
+        padding: 24px 20px;
+    }
+
+    .about__banner-badge {
+        margin-left: -20px;
+        padding-left: 20px;
+    }
+
+    .about__banner-title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    /* Р”РѕСЃС‚Р°РІРєР° */
+    .delivery-card {
+        padding: 20px 16px;
+        min-height: auto;
+    }
+
+    /* РљРѕРЅС‚Р°РєС‚С‹ */
+    .contacts__card {
+        padding: 20px 16px;
+    }
+
+    .contacts__actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .contacts__btn {
+        width: 100%;
+        height: 44px;
+    }
+
+    .contacts__map {
+        min-height: 300px;
+    }
+
+    /* РџРѕРґРІР°Р» */
+    .footer {
+        padding: 40px 0 30px;
+    }
+
+    .footer__wrap {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .footer__col {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+}
+

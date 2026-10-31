@@ -1,0 +1,104 @@
+﻿*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+body.page {
+    font-family: var(--font-main);
+    color: var(--color-text-primary);
+    background-color: var(--color-white);
+    line-height: 1.4;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color var(--transition-fast), opacity var(--transition-fast);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button,
+input {
+    font-family: inherit;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+    max-width: 1488px; /* 1440px РєРѕРЅС‚РµРЅС‚ + 24px*2 Р±РѕРєРѕРІС‹Рµ РїРѕР»СЏ РїРѕ РјР°РєРµС‚Сѓ */
+}
+.section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+}
+
+.section-head__title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: var(--color-text-primary);
+}
+
+.section-head__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    height: 33px;
+    border: 1px solid var(--color-orange-ui);
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-orange-ui);
+    white-space: nowrap;
+    transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.section-head__link:hover {
+    background-color: var(--color-orange-ui);
+    color: var(--color-white);
+}
+
+/* РћР±С‰РёР№ РѕС‚СЃС‚СѓРї РјРµР¶РґСѓ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹РјРё СЃРµРєС†РёСЏРјРё */
+.info-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    padding-top: 60px;
+}
+
