@@ -42,13 +42,5 @@
 
 ## Запуск проекта
 
-```bash
-composer install
-php artisan migrate --seed
-php artisan serve
-```
-
-Запуск тестов:
-```bash
-php artisan test
+Статика https://hochupivo.github.io/sportplus/
 ```
